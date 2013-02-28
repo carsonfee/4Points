@@ -10,21 +10,21 @@
 		F63AD27016DF156E006B822D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63AD26F16DF156E006B822D /* UIKit.framework */; };
 		F63AD27216DF156E006B822D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63AD27116DF156E006B822D /* Foundation.framework */; };
 		F63AD27416DF156E006B822D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63AD27316DF156E006B822D /* CoreGraphics.framework */; };
-		F63AD27A16DF156E006B822D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F63AD27816DF156E006B822D /* InfoPlist.strings */; };
 		F63AD27C16DF156E006B822D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F63AD27B16DF156E006B822D /* main.m */; };
 		F63AD28016DF156E006B822D /* FPTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F63AD27F16DF156E006B822D /* FPTAppDelegate.m */; };
 		F63AD28216DF156E006B822D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F63AD28116DF156E006B822D /* Default.png */; };
 		F63AD28416DF156E006B822D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F63AD28316DF156E006B822D /* Default@2x.png */; };
 		F63AD28616DF156E006B822D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F63AD28516DF156E006B822D /* Default-568h@2x.png */; };
 		F63AD28916DF156E006B822D /* FPTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F63AD28816DF156E006B822D /* FPTViewController.m */; };
-		F63AD28C16DF156E006B822D /* FPTViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F63AD28A16DF156E006B822D /* FPTViewController_iPhone.xib */; };
-		F63AD28F16DF156E006B822D /* FPTViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F63AD28D16DF156E006B822D /* FPTViewController_iPad.xib */; };
 		F63AD2A116DF1B44006B822D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63AD2A016DF1B44006B822D /* MapKit.framework */; };
 		F63AD2A516DF1C49006B822D /* FPTMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F63AD2A316DF1C49006B822D /* FPTMapViewController.m */; };
 		F63AD2A616DF1C49006B822D /* FPTMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F63AD2A416DF1C49006B822D /* FPTMapViewController.xib */; };
 		F63AD2AA16DF1F52006B822D /* FPTNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F63AD2A816DF1F52006B822D /* FPTNavViewController.m */; };
 		F63AD2AB16DF1F52006B822D /* FPTNavViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F63AD2A916DF1F52006B822D /* FPTNavViewController.xib */; };
 		F63AD2AD16DF26EB006B822D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63AD2AC16DF26EB006B822D /* CoreLocation.framework */; };
+		F696E07216DF361100ADAF06 /* FPTViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F696E06C16DF361100ADAF06 /* FPTViewController_iPad.xib */; };
+		F696E07316DF361100ADAF06 /* FPTViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F696E06E16DF361100ADAF06 /* FPTViewController_iPhone.xib */; };
+		F696E07416DF361100ADAF06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F696E07016DF361100ADAF06 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +33,6 @@
 		F63AD27116DF156E006B822D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F63AD27316DF156E006B822D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F63AD27716DF156E006B822D /* 4Points-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "4Points-Info.plist"; sourceTree = "<group>"; };
-		F63AD27916DF156E006B822D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F63AD27B16DF156E006B822D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F63AD27D16DF156E006B822D /* 4Points-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "4Points-Prefix.pch"; sourceTree = "<group>"; };
 		F63AD27E16DF156E006B822D /* FPTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPTAppDelegate.h; sourceTree = "<group>"; };
@@ -43,8 +42,6 @@
 		F63AD28516DF156E006B822D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F63AD28716DF156E006B822D /* FPTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPTViewController.h; sourceTree = "<group>"; };
 		F63AD28816DF156E006B822D /* FPTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPTViewController.m; sourceTree = "<group>"; };
-		F63AD28B16DF156E006B822D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FPTViewController_iPhone.xib; sourceTree = "<group>"; };
-		F63AD28E16DF156E006B822D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FPTViewController_iPad.xib; sourceTree = "<group>"; };
 		F63AD2A016DF1B44006B822D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		F63AD2A216DF1C49006B822D /* FPTMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPTMapViewController.h; sourceTree = "<group>"; };
 		F63AD2A316DF1C49006B822D /* FPTMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPTMapViewController.m; sourceTree = "<group>"; };
@@ -53,6 +50,9 @@
 		F63AD2A816DF1F52006B822D /* FPTNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPTNavViewController.m; sourceTree = "<group>"; };
 		F63AD2A916DF1F52006B822D /* FPTNavViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FPTNavViewController.xib; sourceTree = "<group>"; };
 		F63AD2AC16DF26EB006B822D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F696E06D16DF361100ADAF06 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FPTViewController_iPad.xib; sourceTree = SOURCE_ROOT; };
+		F696E06F16DF361100ADAF06 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FPTViewController_iPhone.xib; sourceTree = SOURCE_ROOT; };
+		F696E07116DF361100ADAF06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +103,13 @@
 		F63AD27516DF156E006B822D /* 4Points */ = {
 			isa = PBXGroup;
 			children = (
+				F696E06C16DF361100ADAF06 /* FPTViewController_iPad.xib */,
+				F696E06E16DF361100ADAF06 /* FPTViewController_iPhone.xib */,
+				F696E07016DF361100ADAF06 /* InfoPlist.strings */,
 				F63AD27E16DF156E006B822D /* FPTAppDelegate.h */,
 				F63AD27F16DF156E006B822D /* FPTAppDelegate.m */,
 				F63AD28716DF156E006B822D /* FPTViewController.h */,
 				F63AD28816DF156E006B822D /* FPTViewController.m */,
-				F63AD28A16DF156E006B822D /* FPTViewController_iPhone.xib */,
-				F63AD28D16DF156E006B822D /* FPTViewController_iPad.xib */,
 				F63AD27616DF156E006B822D /* Supporting Files */,
 				F63AD2A216DF1C49006B822D /* FPTMapViewController.h */,
 				F63AD2A316DF1C49006B822D /* FPTMapViewController.m */,
@@ -124,7 +125,6 @@
 			isa = PBXGroup;
 			children = (
 				F63AD27716DF156E006B822D /* 4Points-Info.plist */,
-				F63AD27816DF156E006B822D /* InfoPlist.strings */,
 				F63AD27B16DF156E006B822D /* main.m */,
 				F63AD27D16DF156E006B822D /* 4Points-Prefix.pch */,
 				F63AD28116DF156E006B822D /* Default.png */,
@@ -186,14 +186,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F63AD27A16DF156E006B822D /* InfoPlist.strings in Resources */,
 				F63AD28216DF156E006B822D /* Default.png in Resources */,
 				F63AD28416DF156E006B822D /* Default@2x.png in Resources */,
 				F63AD28616DF156E006B822D /* Default-568h@2x.png in Resources */,
-				F63AD28C16DF156E006B822D /* FPTViewController_iPhone.xib in Resources */,
-				F63AD28F16DF156E006B822D /* FPTViewController_iPad.xib in Resources */,
 				F63AD2A616DF1C49006B822D /* FPTMapViewController.xib in Resources */,
 				F63AD2AB16DF1F52006B822D /* FPTNavViewController.xib in Resources */,
+				F696E07216DF361100ADAF06 /* FPTViewController_iPad.xib in Resources */,
+				F696E07316DF361100ADAF06 /* FPTViewController_iPhone.xib in Resources */,
+				F696E07416DF361100ADAF06 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,28 +215,28 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F63AD27816DF156E006B822D /* InfoPlist.strings */ = {
+		F696E06C16DF361100ADAF06 /* FPTViewController_iPad.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F63AD27916DF156E006B822D /* en */,
+				F696E06D16DF361100ADAF06 /* en */,
 			);
-			name = InfoPlist.strings;
+			name = FPTViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
-		F63AD28A16DF156E006B822D /* FPTViewController_iPhone.xib */ = {
+		F696E06E16DF361100ADAF06 /* FPTViewController_iPhone.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F63AD28B16DF156E006B822D /* en */,
+				F696E06F16DF361100ADAF06 /* en */,
 			);
 			name = FPTViewController_iPhone.xib;
 			sourceTree = "<group>";
 		};
-		F63AD28D16DF156E006B822D /* FPTViewController_iPad.xib */ = {
+		F696E07016DF361100ADAF06 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F63AD28E16DF156E006B822D /* en */,
+				F696E07116DF361100ADAF06 /* en */,
 			);
-			name = FPTViewController_iPad.xib;
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -298,8 +298,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "4Points/4Points-Prefix.pch";
-				INFOPLIST_FILE = "4Points/4Points-Info.plist";
+				GCC_PREFIX_HEADER = "4Points-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/4Points-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -309,8 +309,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "4Points/4Points-Prefix.pch";
-				INFOPLIST_FILE = "4Points/4Points-Info.plist";
+				GCC_PREFIX_HEADER = "4Points-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/4Points-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -335,6 +335,7 @@
 				F63AD29416DF156E006B822D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
