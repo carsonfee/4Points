@@ -17,14 +17,14 @@
 		F63AD28616DF156E006B822D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F63AD28516DF156E006B822D /* Default-568h@2x.png */; };
 		F63AD28916DF156E006B822D /* FPTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F63AD28816DF156E006B822D /* FPTViewController.m */; };
 		F63AD2A116DF1B44006B822D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63AD2A016DF1B44006B822D /* MapKit.framework */; };
-		F63AD2A516DF1C49006B822D /* FPTMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F63AD2A316DF1C49006B822D /* FPTMapViewController.m */; };
-		F63AD2A616DF1C49006B822D /* FPTMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F63AD2A416DF1C49006B822D /* FPTMapViewController.xib */; };
-		F63AD2AA16DF1F52006B822D /* FPTNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F63AD2A816DF1F52006B822D /* FPTNavViewController.m */; };
-		F63AD2AB16DF1F52006B822D /* FPTNavViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F63AD2A916DF1F52006B822D /* FPTNavViewController.xib */; };
 		F63AD2AD16DF26EB006B822D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63AD2AC16DF26EB006B822D /* CoreLocation.framework */; };
 		F696E07216DF361100ADAF06 /* FPTViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F696E06C16DF361100ADAF06 /* FPTViewController_iPad.xib */; };
 		F696E07316DF361100ADAF06 /* FPTViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F696E06E16DF361100ADAF06 /* FPTViewController_iPhone.xib */; };
 		F696E07416DF361100ADAF06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F696E07016DF361100ADAF06 /* InfoPlist.strings */; };
+		F696E07B16DF368E00ADAF06 /* FPTMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F696E07616DF368E00ADAF06 /* FPTMapViewController.m */; };
+		F696E07C16DF368E00ADAF06 /* FPTMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F696E07716DF368E00ADAF06 /* FPTMapViewController.xib */; };
+		F696E07D16DF368E00ADAF06 /* FPTNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F696E07916DF368E00ADAF06 /* FPTNavViewController.m */; };
+		F696E07E16DF368E00ADAF06 /* FPTNavViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F696E07A16DF368E00ADAF06 /* FPTNavViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,16 +43,16 @@
 		F63AD28716DF156E006B822D /* FPTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPTViewController.h; sourceTree = "<group>"; };
 		F63AD28816DF156E006B822D /* FPTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPTViewController.m; sourceTree = "<group>"; };
 		F63AD2A016DF1B44006B822D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		F63AD2A216DF1C49006B822D /* FPTMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPTMapViewController.h; sourceTree = "<group>"; };
-		F63AD2A316DF1C49006B822D /* FPTMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPTMapViewController.m; sourceTree = "<group>"; };
-		F63AD2A416DF1C49006B822D /* FPTMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FPTMapViewController.xib; sourceTree = "<group>"; };
-		F63AD2A716DF1F52006B822D /* FPTNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPTNavViewController.h; sourceTree = "<group>"; };
-		F63AD2A816DF1F52006B822D /* FPTNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPTNavViewController.m; sourceTree = "<group>"; };
-		F63AD2A916DF1F52006B822D /* FPTNavViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FPTNavViewController.xib; sourceTree = "<group>"; };
 		F63AD2AC16DF26EB006B822D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		F696E06D16DF361100ADAF06 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FPTViewController_iPad.xib; sourceTree = SOURCE_ROOT; };
 		F696E06F16DF361100ADAF06 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FPTViewController_iPhone.xib; sourceTree = SOURCE_ROOT; };
 		F696E07116DF361100ADAF06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		F696E07516DF368E00ADAF06 /* FPTMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPTMapViewController.h; sourceTree = SOURCE_ROOT; };
+		F696E07616DF368E00ADAF06 /* FPTMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPTMapViewController.m; sourceTree = SOURCE_ROOT; };
+		F696E07716DF368E00ADAF06 /* FPTMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FPTMapViewController.xib; sourceTree = SOURCE_ROOT; };
+		F696E07816DF368E00ADAF06 /* FPTNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPTNavViewController.h; sourceTree = SOURCE_ROOT; };
+		F696E07916DF368E00ADAF06 /* FPTNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPTNavViewController.m; sourceTree = SOURCE_ROOT; };
+		F696E07A16DF368E00ADAF06 /* FPTNavViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FPTNavViewController.xib; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,20 +103,19 @@
 		F63AD27516DF156E006B822D /* 4Points */ = {
 			isa = PBXGroup;
 			children = (
+				F696E07516DF368E00ADAF06 /* FPTMapViewController.h */,
+				F696E07616DF368E00ADAF06 /* FPTMapViewController.m */,
+				F696E07716DF368E00ADAF06 /* FPTMapViewController.xib */,
+				F696E07816DF368E00ADAF06 /* FPTNavViewController.h */,
+				F696E07916DF368E00ADAF06 /* FPTNavViewController.m */,
+				F696E07A16DF368E00ADAF06 /* FPTNavViewController.xib */,
 				F696E06C16DF361100ADAF06 /* FPTViewController_iPad.xib */,
 				F696E06E16DF361100ADAF06 /* FPTViewController_iPhone.xib */,
-				F696E07016DF361100ADAF06 /* InfoPlist.strings */,
 				F63AD27E16DF156E006B822D /* FPTAppDelegate.h */,
 				F63AD27F16DF156E006B822D /* FPTAppDelegate.m */,
 				F63AD28716DF156E006B822D /* FPTViewController.h */,
 				F63AD28816DF156E006B822D /* FPTViewController.m */,
 				F63AD27616DF156E006B822D /* Supporting Files */,
-				F63AD2A216DF1C49006B822D /* FPTMapViewController.h */,
-				F63AD2A316DF1C49006B822D /* FPTMapViewController.m */,
-				F63AD2A416DF1C49006B822D /* FPTMapViewController.xib */,
-				F63AD2A716DF1F52006B822D /* FPTNavViewController.h */,
-				F63AD2A816DF1F52006B822D /* FPTNavViewController.m */,
-				F63AD2A916DF1F52006B822D /* FPTNavViewController.xib */,
 			);
 			path = 4Points;
 			sourceTree = "<group>";
@@ -124,6 +123,7 @@
 		F63AD27616DF156E006B822D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F696E07016DF361100ADAF06 /* InfoPlist.strings */,
 				F63AD27716DF156E006B822D /* 4Points-Info.plist */,
 				F63AD27B16DF156E006B822D /* main.m */,
 				F63AD27D16DF156E006B822D /* 4Points-Prefix.pch */,
@@ -189,11 +189,11 @@
 				F63AD28216DF156E006B822D /* Default.png in Resources */,
 				F63AD28416DF156E006B822D /* Default@2x.png in Resources */,
 				F63AD28616DF156E006B822D /* Default-568h@2x.png in Resources */,
-				F63AD2A616DF1C49006B822D /* FPTMapViewController.xib in Resources */,
-				F63AD2AB16DF1F52006B822D /* FPTNavViewController.xib in Resources */,
 				F696E07216DF361100ADAF06 /* FPTViewController_iPad.xib in Resources */,
 				F696E07316DF361100ADAF06 /* FPTViewController_iPhone.xib in Resources */,
 				F696E07416DF361100ADAF06 /* InfoPlist.strings in Resources */,
+				F696E07C16DF368E00ADAF06 /* FPTMapViewController.xib in Resources */,
+				F696E07E16DF368E00ADAF06 /* FPTNavViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,8 +207,8 @@
 				F63AD27C16DF156E006B822D /* main.m in Sources */,
 				F63AD28016DF156E006B822D /* FPTAppDelegate.m in Sources */,
 				F63AD28916DF156E006B822D /* FPTViewController.m in Sources */,
-				F63AD2A516DF1C49006B822D /* FPTMapViewController.m in Sources */,
-				F63AD2AA16DF1F52006B822D /* FPTNavViewController.m in Sources */,
+				F696E07B16DF368E00ADAF06 /* FPTMapViewController.m in Sources */,
+				F696E07D16DF368E00ADAF06 /* FPTNavViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
